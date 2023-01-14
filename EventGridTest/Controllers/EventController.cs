@@ -23,5 +23,11 @@ namespace EventGridTest.Controllers
 
             return Ok();
         }
+
+        public ActionResult<string> Get()
+        {
+            return "Hello World";
+        }
+
     }
 }
